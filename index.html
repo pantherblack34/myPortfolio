@@ -1,81 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Component Library 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <div class="navig">
-        <p class="navig-para">PORTFOLIO</p>
-        <ul class="navig-no-bullet">
-            <li class="list-inline"><a href="#">HOME</a></li>
-            <li class="list-inline"><a href="#">PROJECTS</a></li>
-            <li class="list-inline"><a href="#">BLOGS</a></li>
-        </ul>
-    </div>
-
-    <header class="head">
-        
-        <h1 class="head-heading">AMAL OUSEPH <br><span class="container-centered"
-                style="color: var(--primary-color);">Learning Web Developer</span></h1>
-
-                <p>I started to learn web development using tutorials and neogcamp.Started to learn more about
-                    <br>the web development because of <strong>neogCamp</strong> and <strong>TANAY PRATAP</strong>.Now, I am enjoying a lot, experiencing little by little.</p>
-
-    </header>
-    
-
-    
-
-    <section class="section">
-        <div class="container-center">
-            <img src="/image/img2.svg" alt="LEARNING">
-            <h2>Things learned so far</h2>
+ 
+    <div id="main">
+        <div id="head1">
+            <h1>AMAL <br> THE WEB DEVELOPER</h1>
+        </div>
+            <nav>
+                <ul class="no-bullet">
+                    <li class="inline-list"><a href="#">HOME</a></li>
+                    <li class="inline-list"><a href="#">PROJECT</a></li>
+                    <li class="inline-list"><a href="#">BLOGS</a></li>
+                </ul>
+            </nav>    
+    </div>        
+        <section id="part1">
+            <p>I started to learn web development by seeing tutorials in youtube and neogcamp.I started to love coding.<b>TANAY PRATAP</b> and his team helped me that how one should move to become a good programmer.</p>
+            <p>The guide on neoGcamp is well made which focuses on the beginners rather than go on a rapid pace to complete the course.</p>
+            <p>I have learnt some basic which have taught in the <strong>LEVEL ZERO GUIDE</strong> of neoGcamp.</p>
             <ol>
-                <p>I have learned what you can say a step towards web development, only basics.</p>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVSCRIPT</li>
-                <li>REACT</li>
-                <li>how to work in GITHUB and GITHUB DESKTOP</li>
+                <p>What I have learned are :</p>
+               <li>HTML</li>
+               <li>CSS</li> 
+               <li>VANILLA JS</li> 
+               <li>REACT.JS</li> 
+               <li>GITHUB</li> 
+               <li>GITHUB DESKTOP</li>
+               <li>NETLIFY</li> 
             </ol>
-        </div>
-    </section>
+        </section>
 
-    <section class="section off">
-        <div class="container-center">
-            <p>I have created a component library which will help to reduce the work and take less time to make the
-                site.You should also make a component library which will help you to make and understand the basic concept of <Strong>HTML</Strong>
-             and <strong>CSS</strong> part.</p>
-             <a href="https://61486191c3e2e2fb831bff25--pantherblack34.netlify.app/">CLICK TO SEE THE COMPONENT LIBRARY</a>
-        </div>
-    </section>
+        <div id="link">
+            <p>I have created some projects or mainly assignment which have been taught in the course.</p>
+            <p>Below are my assignments.</p>
 
+            <div id="link-box">
+                <div class="link-inline">
+                    <a class="no-outline" href="https://replit.com/@spookykataro/exerciseFourteen#index.js?embedded=1&output=1" target="_blank"><img src="/pics/assign1.webp" alt="assignment">CLI QUIZ</a>
+                </div>
     
-    <footer class="leg">
-        <div class="leg-header">
-            <p>Connect me with the social links</p>
-            <ul class="no-bullet">
-                
-                <li class="list-inlinef">
-                    <a href="#"><img src="image\twitterp.png" alt="TWITTER LOGO"></a>
-                </li>
-                <li class="list-inlinef">
-                    <a href="#"><img src="image\github.png" alt="GITHUB LOGO"></a>
-                </li>
-                <li class="list-inlinef">
-                    <a href="#"><img src="image\discord.png" alt="DISCORD LOGO"></a>
-                </li>
-
-            </ul>
+                <div class="link-inline">
+                    <a class="no-outline" href="https://replit.com/@spookykataro/quizAboutIndia#index.js?embedded=1&output=1" target="_blank"><img src="/pics/assign1.webp" alt="assignment">CLI QUIZ</a>
+                </div>
+    
+                <div class="link-inline">
+                    <a class="no-outline" href="https://pantherblack1.netlify.app/" target="_blank"><img src="/pics/undraw_design_components_9vy6.png" alt="Component Library">COMPONENT LIBRARY</a>
+                </div>
+    
+                <div class="link-inline">
+                    <a class="no-outline" href="#"><img src="" alt=""></a>
+                </div>
+            </div>
+            
         </div>
-    </footer>
-</body>
 
+        <footer>
+            <h1>Find me at</h1>
+
+            <div class="contact-info-inline">
+                <a href="#"><img src="pics/discord.png" alt="DISCORD"></a>
+            </div>
+
+            <div class="contact-info-inline">
+                <a href="https://github.com/pantherblack34" target="_blank"><img src="pics/github.jpg" alt="GITHUB"></a>
+            </div>
+
+            <div class="contact-info-inline">
+                <a href="https://twitter.com/AmalOusephspook?s=09" target="_blank"><img src="pics/twitterp.png" alt="TWITTER"></a>
+            </div>
+
+            <div class="contact-info-inline">
+                <a href="#"><img id="size" src="pics/linkedin.jpg" alt="linkedin"></a>
+            </div>
+        </footer>
+    
+    
+</body>
 </html>
