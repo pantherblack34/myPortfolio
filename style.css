@@ -1,7 +1,6 @@
 :root{
     --primary-color: #0891B2;
-    --secondary-color: #22D3EE;
-    
+    --secondary-color: rgb(42, 77, 173);    
 }
 
 *root{
@@ -30,7 +29,7 @@ body{
 }
 
 nav{
-    margin-top: -70px;
+    margin-top: -90px;
     padding-right: 150px;
 }
 
@@ -46,6 +45,11 @@ nav a{
     text-decoration: none;
     font-size: large;
     color: aliceblue;
+}
+
+nav a:hover{
+    display: inline-block;
+    color: var(--secondary-color);
 }
 
 #part1{
@@ -74,10 +78,16 @@ nav a{
 
 #link-box a{
     text-decoration: none;
+    color: var(--primary-color);
+}
+
+#link-box a:hover{
+    color: var(--secondary-color);
 }
 
 #link-box img{
-    width: 200px;    
+    width: 200px;  
+    border-radius: 20px;  
 }
 
 .link-inline{
