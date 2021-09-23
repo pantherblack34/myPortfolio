@@ -91,16 +91,16 @@ nav a:hover{
     color: var(--secondary-color);
 }
 
-#link-box img{
-    
+#link-box img{ 
     width: 100px;  
-    border-radius: 20px;  
+    border-radius: 20px; 
+    margin-top: -90px;
+    margin-right: 10px;
+    border: 2px solid var(--secondary-color); 
 }
 
 .link-inline{
-    display: grid;
-    grid-template-columns: 3;
-    padding: 5px;
+    display: table-cell;
     text-align: center;
 }
 
