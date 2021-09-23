@@ -29,6 +29,7 @@ body{
 }
 
 #head1 h1{
+    position: sticky;
     margin-top: -10px;
 }
 
@@ -38,6 +39,7 @@ nav{
 }
 
 nav .no-bullet {
+    position: sticky;
     list-style: none;
     text-align: right;
 }
@@ -90,12 +92,14 @@ nav a:hover{
 }
 
 #link-box img{
-    width: 180px;  
+    
+    width: 100px;  
     border-radius: 20px;  
 }
 
 .link-inline{
-    display: table-cell;
+    display: grid;
+    grid-template-columns: 3;
     padding: 5px;
     text-align: center;
 }
