@@ -1,13 +1,7 @@
-let part = document.querySelector(".part1");
+let part1 = document.querySelector('.part1');
+let part2 = document.querySelector('.part2').style.display = false;
+let part3 = document.querySelector('.part3').style.display = false;
+let part4 = document.querySelector('.part4').style.display = false;
+let part5 = document.querySelector('.part5').style.display = false;
 
-function prev(){
-    let i = 0;
-    if(i == 0){
-        document.getElementsByClassName('prev').disabled = true;
-        document.getElementsByClassName('next').disabled = false;
-    }else{
-        i--;
-        return part1;
 
-    }
-}
