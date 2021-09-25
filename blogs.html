@@ -43,7 +43,7 @@
         </ol>
     </section>
     <hr>
-    <section class="part1">
+    <section class="part2">
         <h2>GIT</h2>
         <img src="/image/git.png" alt="Git image">
         <p>Git is an open source software which is used to track any changes done in the program.It is basically created for the coordination of work between the team with less effort.</p>
@@ -98,9 +98,9 @@
         </ol>
     </section>
     <hr>
-    <section class="part1">
+    <section class="part3">
         <h2>HTML & CSS</h2>
-        <img src="/image/html.jpg" alt="HTML image">
+        <img src="/image/html.jpg" alt="HTML image" width="200px">
         <strong>HTML</strong>-The <abbr title="HYPERTEXT MARKUP LANGUAGE">HTML</abbr> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. It defines the meaning and structure of web.HTML are basically <strong>case-insensitive</strong>,but there are exception for entities such as <b>class</b>,<b>id</b> etc. <br>
 
         <img src="/image/css.jpg" alt="CSS image">
@@ -188,7 +188,7 @@
         </ol>
     </section><hr>
 
-    <section class="part1">
+    <section class="part4">
         <h2>VANILLA JS or JAVASCRIPT</h2>
         <img src="/image/JavaScript-Logo.jpg" alt="JAVASCRIPT LOGO" width="200px">
         The term vanilla script is used to refer to the pure JavaScript (or we can say plain JavaScript) without any type of additional library.JS is a dynamic programming language that supports Math calculations, allows you to dynamically add HTML contents to the DOM, creates dynamic style declarations, fetches contents from another website, add functionality to the website and lots more.There are many ways of using JS in clients but the most common and simple are`:
@@ -222,5 +222,81 @@
             </li>       
           </ol>
     </section><hr>
+
+    <section class="part5">
+        <h2>REACT.JS</h2>
+        <img src="/image/reactjs.png" alt="REACT JS" width="200px">
+        ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library which is responsible only for the view layer of the application.The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. It uses virtual DOM (JavaScript object), which improves the performance of the app.
+        <ul>
+            <li>
+                <strong>DECLARATIVE</strong> - A declarative style, like what react has, allows you to control flow and state in your application by saying <strong>"It should look like this"</strong> where as in an imperative style turns that around and allows you to control your application by saying <strong>"This is what you should do"</strong></li>.
+            </li>
+            <li>
+                <strong>COMPONENT BASED</strong> - Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but <strong>work in isolation and return HTML via a render() function</strong>. Components come in two types, Class components and Function components
+            </li>
+            <li>
+                <strong>Learn Once,Write Anywhere</strong> - This means you have to learn one stuff and even if you switch from one platform to another the concept of previous language is still able to use in that platform which will help you to learn, understand and debug the code with ease.
+            </li>
+        </ul>
+        <ol>
+            <p>In this lecture we are using <strong>CodeSandbox</strong>, which is an online code editor and prototyping tool that makes creating and sharing web apps faster.</p>
+            <li>
+                What I first encountered in codesandbox is that there are multiple folders which contain JSON files, than after viewing the video I understand how the <strong>REACT</strong> in <strong>CodeSandbox</strong> works.
+            </li>
+            <li>
+                How the codesandbox works is that,there us a folder which contains styling part i.e,style.css which transforms the style in the file which contains app.js which in turn change the index.js which ultimately change the index.html via an <strong>id element "root"</strong>.In short, style.css >> app.js >> index.js >> index.html.
+            </li>
+            <li>
+                to edit in html, you have to edit it in app.js which will reflect the changed element in index.html.This is called rendering.
+            </li>
+            <li>
+                If you want to add style,you can add it in style.css whereas if you want to add style in app.js than you have to use an object to define the style in app.js.
+            </li>
+            <li>
+                The naming convention in app.js is little bit different as compared to CSS,here it follows <strong>BEM</strong> naming convention.
+            </li>
+            <li>
+                There are two different types of curly brackets {}:
+                <ul>
+                    <li>
+                        Single Curly Bracket {function} - Which defines the function.
+                    </li>
+                    <li>
+                        Double Curly Brackets {{Object}} - which defines the style component object to be used.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>JSX</h3>JSX stands for JavaScript XML. It is simply a syntax extension of JavaScript. It allows us to directly write HTML in React (within JavaScript code). ... It is faster than normal JavaScript as it performs optimizations while translating to regular JavaScript.
+            </li>
+            <li>
+                <strong>{useState}</strong> - useState is a Hook that allows you to have state variables in functional components. You pass the initial state to this function and it returns a variable with the current state value and another function to update this value.
+            </li>
+            <li>
+                <strong>Hooks</strong> - Hooks allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+            </li>
+            <li>
+                <strong>Arrow Function ()=>{code inside}</strong> - In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever. With arrow functions, the this keyword always represents the object that defined the arrow function.
+            </li>
+            <li>
+                <strong>Map()</strong> - The map() function is used to iterate over an array and manipulate or change data items. In React, the map() function is most commonly used for rendering a list of data to the DOM.The map() function only works with arrays.
+            </li>
+            <li>
+                To convert <strong>Objects{}</strong> into <strong>arrays[]</strong> - There are three ways to convert:
+                <ul>
+                    let object = {"name" : "kingkong", "power" : "smash"};
+                    <li>
+                        <b>Object.keys(object variable)</b> : By using key we get, only the key values.Ex:-Object.keys(object) we get ["name", "power"]
+                    </li>
+                    <li>
+                        <b>Object.values(object variable)</b> : By using key we get only pair values.Ex:- Object.values(object) we get ["kingkong", "smash"]
+                    </li>
+                    <li>
+                        <b>Object.entries()</b> : By using entries, we get both the key and pair values.Ex:- Object.entries(object) we get [["name", "kingkong"], ["power", "smash"]]
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
 </body>
 </html>
