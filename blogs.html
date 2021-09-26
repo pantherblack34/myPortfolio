@@ -20,7 +20,7 @@
                 </ul>
             </nav> 
     </div>
-    <section class="partall">
+    <section class="part1">
         <h2><abbr titel="Command Line Interface">CLI</abbr></h2>
         <img src="/image/cli-image.png" width="300px" alt="Program lines">
         <p>A command-line-interface (CLI) proccesses commands to a computer program in the form of lines of text.In other words,it accepts user text input to execute operating function.</p>
@@ -42,9 +42,11 @@
             </li>
         </ol>
     </section>
-    
-     
-    <section class="partall">
+
+    <button class="prev" onclick="prev()">prev</button>
+    <button class="next" onclick="next()">next</button>
+        
+    <section class="part2">
         <h2>GIT</h2>
         <img src="/image/git.png" alt="Git image">
         <p>Git is an open source software which is used to track any changes done in the program.It is basically created for the coordination of work between the team with less effort.</p>
@@ -99,7 +101,10 @@
         </ol>
     </section>
 
-    <section class="partall">
+    <button class="prev1" onclick="prev1()">prev</button>
+    <button class="next1" onclick="next1()">next</button>
+
+    <section class="part3">
         <h2>HTML & CSS</h2>
         <img src="/image/html.jpg" alt="HTML image" width="200px">
         <strong>HTML</strong>-The <abbr title="HYPERTEXT MARKUP LANGUAGE">HTML</abbr> is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript. It defines the meaning and structure of web.HTML are basically <strong>case-insensitive</strong>,but there are exception for entities such as <b>class</b>,<b>id</b> etc. <br>
@@ -189,7 +194,10 @@
         </ol>
     </section>
 
-    <section class="partall">
+    <button class="prev2" onclick="prev2()">prev</button>
+    <button class="next2" onclick="next2()">next</button>
+
+    <section class="part4">
         <h2>VANILLA JS or JAVASCRIPT</h2>
         <img src="/image/JavaScript-Logo.jpg" alt="JAVASCRIPT LOGO" width="200px">
         The term vanilla script is used to refer to the pure JavaScript (or we can say plain JavaScript) without any type of additional library.JS is a dynamic programming language that supports Math calculations, allows you to dynamically add HTML contents to the DOM, creates dynamic style declarations, fetches contents from another website, add functionality to the website and lots more.There are many ways of using JS in clients but the most common and simple are`:
@@ -224,7 +232,10 @@
           </ol>
     </section>
 
-    <section class="partall">
+    <button class="prev3" onclick="prev3()">prev</button>
+    <button class="next3" onclick="next3()">next</button>
+
+    <section class="part5">
         <h2>REACT.JS</h2>
         <img src="/image/reactjs.png" alt="REACT JS" width="200px">
         ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front end library which is responsible only for the view layer of the application.The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. It uses virtual DOM (JavaScript object), which improves the performance of the app.
@@ -245,7 +256,7 @@
                 What I first encountered in codesandbox is that there are multiple folders which contain JSON files, than after viewing the video I understand how the <strong>REACT</strong> in <strong>CodeSandbox</strong> works.
             </li>
             <li>
-                How the codesandbox works is that,there us a folder which contains styling part i.e,style.css which transforms the style in the file which contains app.js which in turn change the index.js which ultimately change the index.html via an <strong>id element "root"</strong>.In short, style.css >> app.js >> index.js >> index.html.
+                How the codesandbox works is that,there is a folder which contains styling part i.e,style.css which transforms the style in the file which contains app.js which in turn change the index.js which ultimately change the index.html via an <strong>id element "root"</strong>.In short, style.css >> app.js >> index.js >> index.html.
             </li>
             <li>
                 to edit in html, you have to edit it in app.js which will reflect the changed element in index.html.This is called rendering.
@@ -300,8 +311,8 @@
         </ol>
     </section>
 
-    <button id="prev" onclick="prev()">prev</button>
-    <button id="next" onclick="next()">next</button>
+    <button class="prev4" onclick="prev4()">prev</button>
+    <button class="next4" onclick="next4()">next</button>
 
     <script src="app.js"></script>
 </body>
