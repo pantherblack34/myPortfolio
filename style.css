@@ -74,36 +74,6 @@ nav a:hover{
     font-size: 25px;
 }
 
-#link{
-    display: block;
-    max-width: 700px;
-    margin: auto;
-    text-align: left;
-    font-size: 25px;
-}
-
-#link-box a{
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-#link-box a:hover{
-    color: var(--secondary-color);
-}
-
-#link-box img{ 
-    width: 100px;  
-    border-radius: 20px; 
-    margin-top: -90px;
-    margin-right: 10px;
-    border: 2px solid var(--secondary-color); 
-}
-
-.link-inline{
-    display: table-cell;
-    text-align: center;
-}
-
 footer{
     display: block;
     max-width: 100%;
@@ -176,13 +146,13 @@ footer .contact-info-inline{
     width: 10rem;
     height: 2rem;
     position: relative;
-    right: -155px;
+    right: -310px;
 }
 .next{
     width: 10rem;
     height: 2rem;
     position: relative;
-    left: 545px;
+    left: 735px;
 }
 
 .part2{
@@ -205,13 +175,13 @@ footer .contact-info-inline{
     width: 10rem;
     height: 2rem;
     position: relative;
-    right: -155px;
+    right: -310px;
 }
 .next1{
     width: 10rem;
     height: 2rem;
     position: relative;
-    left: 545px;
+    left: 735px;
 }
 
 .part3{
@@ -235,13 +205,13 @@ footer .contact-info-inline{
     width: 10rem;
     height: 2rem;
     position: relative;
-    right: -155px;
+    right: -310px;
 }
 .next2{
     width: 10rem;
     height: 2rem;
     position: relative;
-    left: 545px;
+    left: 735px;
 }
 
 .part4{
@@ -265,13 +235,13 @@ footer .contact-info-inline{
     width: 10rem;
     height: 2rem;
     position: relative;
-    right: -155px;
+    right: -310px;
 }
 .next3{
     width: 10rem;
     height: 2rem;
     position: relative;
-    left: 545px;
+    left: 735px;
 }
 
 .part5{
@@ -295,11 +265,52 @@ footer .contact-info-inline{
     width: 10rem;
     height: 2rem;
     position: relative;
-    right: -155px;
+    right: -310px;
 }
 .next4{
     width: 10rem;
     height: 2rem;
     position: relative;
-    left: 545px;
+    left: 735px;
+}
+#link{
+    display: block;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding-left: 275px;
+
+}
+#link p{
+    display: block;
+    text-align: justify;
+    font-size: x-large;
+
+}
+
+#link-box{
+    width: 90%;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+}
+#link-box ol{
+    padding: 0;
+    margin: 0;
+}
+#link-box ol li{
+    list-style: none;
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin: -10px 10px 10px 20px;    
+}
+#link-box ol li a{
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+}
+#link-box ol li img{    
+    width: 150px;
+    height: 200px;
 }
