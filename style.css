@@ -127,21 +127,7 @@ footer .contact-info-inline{
     padding-left: 50px;
 }
 
-.part2{
-    display: none;
-}
-
-.part3{
-    display: none;
-}
-
-.part4{
-    display: none;
-}
-
-.part5{
-    display: none;
-}
+/*------blogs styling-------*/
 
 .prev1{
     display: none;
@@ -169,4 +155,151 @@ footer .contact-info-inline{
 }
 .next4{
     display: none;
+}
+
+.part1{
+    display: block;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    font-size: larger;
+    margin-top: -15px;
+}
+.part1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.prev{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    right: -155px;
+}
+.next{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    left: 545px;
+}
+
+.part2{
+    display: none;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    font-size: larger;
+    margin-top: -15px;
+}
+.part2 img{
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+}
+ .part2 ul{
+    list-style: square;
+ }
+.prev1{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    right: -155px;
+}
+.next1{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    left: 545px;
+}
+
+.part3{
+    display: none;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    font-size: larger;
+    margin-top: -15px;
+}
+.part3 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+.part3 ol li ul{
+    list-style: square;
+}
+
+.prev2{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    right: -155px;
+}
+.next2{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    left: 545px;
+}
+
+.part4{
+    display: none;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    font-size: larger;
+    margin-top: -15px;
+}
+.part4 img{
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
+}
+.part4 ul{
+    list-style: square;
+}
+
+.prev3{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    right: -155px;
+}
+.next3{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    left: 545px;
+}
+
+.part5{
+    display: none;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    font-size: larger;
+    margin-top: -15px;
+}
+.part5 img{
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
+}
+.part5 ul{
+    list-style: square;
+}
+
+.prev4{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    right: -155px;
+}
+.next4{
+    width: 10rem;
+    height: 2rem;
+    position: relative;
+    left: 545px;
 }
